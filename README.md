@@ -68,3 +68,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+"https://5.imimg.com/data5/SELLER/Default/2024/3/400322629/AA/NG/WW/2536835/eps-thermocol-sheet-1000x1000.jpg",
+      "https://tiimg.tistatic.com/fp/1/007/940/10-mm-thickness-white-thermocol-sheet-for-packaging-use-088.jpg",
+      "https://rukminim2.flixcart.com/image/416/416/xif0q/packaging-security-bag/x/t/x/12-x-14-6-thermocol-sheets-for-packing-and-crafting-purposes-original-imagygezpfxvkfcg.jpeg?q=70&crop=false",
