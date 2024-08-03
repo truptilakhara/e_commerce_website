@@ -26,7 +26,6 @@ db.once("open", async () => {
   } catch (err) {
     console.log("Error adding products", err);
   }
-  mongoose.connection().close();
 });
 
 // EXPRESS SERVER//

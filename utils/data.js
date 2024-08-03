@@ -209,7 +209,6 @@ const products = [
       "https://5.imimg.com/data5/UI/OE/UE/SELLER-1668252/1kg-thermocol-bean-balls-250x250.jpg",
       "image14.jpg",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKLuysehme9ul9NLX99Wr8DXArgu11UjJLQw&s",
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr64LZC0sx_dZWe0RVZsuPEACS2xbF-cVznA&s",
     ],
     stock: 120,
     specifications: {
