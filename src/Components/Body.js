@@ -14,7 +14,7 @@ const Body = () => {
     setProductItems(json);
   };
   return (
-    <div className="flex">
+    <div className="flex  flex-wrap justify-evenly  w-[1620px] absolute  top-[150px] ">
       {productItems.map((data) => (
         <ProductList items={data} key={data._id} />
       ))}

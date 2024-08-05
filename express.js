@@ -20,12 +20,13 @@ db.on("error", console.error.bind(console, "Connection Error"));
 db.once("open", async () => {
   console.log("DATABASE CONNECTED");
   try {
-    await Product.insertMany(products);
+     await Product.insertMany(products);
     // await Product.deleteMany({});
     console.log("Products added successfully");
   } catch (err) {
     console.log("Error adding products", err);
   }
+  // mongoose.connection.close()
 });
 
 // EXPRESS SERVER//

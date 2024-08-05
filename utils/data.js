@@ -106,7 +106,7 @@ const products = [
     description: "Lightweight and easy-to-cut thermocol sheets for crafts.",
     price: 80,
     images: [
-      "https://rukminim2.flixcart.com/image/850/1000/xif0q/silhouette-paper/b/n/v/na-20-jr-original-imaghy56exp4h6k2.jpeg?q=90&crop=false",
+      "https://rukminim2.flixcart.com/image/xif0q/silhouette-paper/b/n/v/na-20-jr-original-imaghy56exp4h6k2.jpeg?q=90&crop=false",
       "https://m.media-amazon.com/images/I/41zyXU68KpL._AC_UF1000,1000_QL80_.jpg",
     ],
     stock: 150,
