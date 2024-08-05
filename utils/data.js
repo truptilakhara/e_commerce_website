@@ -207,7 +207,6 @@ const products = [
     price: 100,
     images: [
       "https://5.imimg.com/data5/UI/OE/UE/SELLER-1668252/1kg-thermocol-bean-balls-250x250.jpg",
-      "image14.jpg",
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKLuysehme9ul9NLX99Wr8DXArgu11UjJLQw&s",
     ],
     stock: 120,

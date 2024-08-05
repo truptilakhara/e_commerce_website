@@ -2,7 +2,7 @@ import "./App.css";
 import Header from "./Components/Header.js";
 import Body from "./Components/Body.js";
 import Footer from "./Components/Footer.js";
-import { createBrowserRouter, Outlet, useParams } from "react-router-dom";
+import { createBrowserRouter, Outlet } from "react-router-dom";
 import Categories from "./Components/Categories.js";
 import Collections from "./Components/Collections.js";
 import CartPage from "./Components/CartPage.js";
@@ -58,7 +58,7 @@ const appRouter = createBrowserRouter([
         element: <Admin></Admin>,
       },
       {
-        path: "/product/:id",
+        path: "/:id",
         element: <ProductDetail></ProductDetail>,
       },
     ],

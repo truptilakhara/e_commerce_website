@@ -8,7 +8,7 @@ const Body = () => {
   }, []);
 
   const fetchData = async () => {
-    const data = await fetch("http://localhost:4000/products");
+    const data = await fetch("http://localhost:4000");
     const json = await data.json();
     console.log(json);
     setProductItems(json);

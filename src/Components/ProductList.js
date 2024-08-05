@@ -1,17 +1,16 @@
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ImageCarousel from "./ImageCarousel.js";
 
 const ProductList = ({ items }) => {
-  const { name, price, images, id } = items;
-  
+  const { name, price, images, _id } = items;
 
   return (
-    <div key={id} className="w-[310px] h-[320px] mt-5 border shadow-md">
+    <div key={_id} className="w-[310px] h-[320px] mt-5 border shadow-md">
       <ul>
         <li className="relative left-[40px] top-2">
           <ImageCarousel images={images}></ImageCarousel>
         </li>
-        <Link to={`/product/${id}`}>
+        <Link to={"/"+ _id}>
           <li className="relative left-[40px] top-3 text-[18px] font-semibold">
             {name}
           </li>

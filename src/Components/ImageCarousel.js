@@ -16,7 +16,7 @@ const ImageCarousel = ({ images }) => {
         className="flex transition-transform duration-300"
         style={{ transform: `translateX(-${currentIndex * 200}px)` }}
       >
-        {images.map((image, index) => (
+        {images?.map((image, index) => (
           <img
             src={image}
             key={index}

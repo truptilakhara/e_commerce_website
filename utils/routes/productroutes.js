@@ -1,5 +1,6 @@
 import express from "express";
 import { Product } from "../productsModel.js";
+import mongoose from "mongoose";
 const router = express.Router();
 
 //ADD A NEW PRODUCT
